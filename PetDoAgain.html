@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="PetDoAgain.css" />
+    <title>Pet</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-content">
+        <div class="left-header">
+          <img src="./legdog.PNG" alt="ảnh chân chó" />
+          <h2>PUPASSURE</h2>
+        </div>
+        <div class="left-footer">
+          <img src="./pet.png" alt="Dog-Image" />
+        </div>
+      </div>
+      <!-- /*--leftContainer--*/ -->
+      <div class="right-content">
+        <h2>
+          Yay,puppies! Ensure your pup gets the best care!
+        </h2>
+        <!-- /*text-header*/ -->
+        <div class="form">
+          <div class="name" class="col-half">
+            <p>Name</p>
+            <input type="text" type="text" placeholder="Pet's name" />
+          </div>
+          <div class="file" class="col-half">
+            <input type="file" id="img" />
+            <label for="img">
+              <img src="./camera.png" alt="" />
+            </label>
+            <p>Upload a photo</p>
+          </div>
+          <div class="breed" class="col-half">
+            <p>Breed</p>
+            <input
+              type="text"
+              name="breed"
+              id="pet-breed"
+              placeholder=" Pet's breed"
+            />
+          </div>
+          <div class="birth-day" class="col-half">
+            <p>Birthday</p>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="gender" class="col-half">
+            <p>Gender</p>
+            <div class="gender-layout">
+              <input type="radio" id="female" name="gender" checked />
+              <label for="female"> Female</label>
+              <input type="radio" id="male" name="gender" checked />
+              <label for="male"> Male</label>
+            </div>
+          </div>
+          <div class="say-or-neu" class="col-half">
+            <p>Spayed or Neutered</p>
+            <div class="say-or-neu-layout">
+              <input type="radio" id="spayed" name="#" checked />
+              <label for="spayed">Spayed</label>
+              <input type="radio" id="neutered" name="#" />
+              <label for="neutered">Neutered</label>
+            </div>
+          </div>
+          <div class="weight">
+            <p>Weight</p>
+            <div class="weight-layout">
+              <input type="radio" id="choose1" name="weight" checked />
+              <label for="choose1"> 0-25 lbs</label>
+              <input type="radio" id="choose2" name="weigth" />
+              <label for="choose2"> 25-50 lbs</label>
+              <input type="radio" id="choose3" name="weigth" />
+              <label for="choose3"> 50-100 lbs</label>
+              <input type="radio" id="choose4" name="weigth" />
+              <label for="choose4"> 100+ lbs</label>
+            </div>
+          </div><!--weight-->
+        </div>
+        <!-- /*form*/ -->
+        <div class="right-footer">
+          <div class="button-back">
+            <button>Back</button>
+          </div>
+          <!-- /*--button-back--*/ -->
+          <div class="button-next">
+            <button>Next</button>
+          </div>
+          <!-- /*--butoon-next*/ -->
+        </div>
+        <!-- /*--form--*/ -->
+      </div>
+      <!-- /*--rightContainer--*/ -->
+    </div>
+    <!-- /*--container--*/ -->
+  </body>
+</html>
