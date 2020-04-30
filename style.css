@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear-fix {
+    clear: both;
+}
+.nav {
+    width: 600px;
+    background-color: #ff7f50;
+    margin: auto;
+    margin-top: 120px;
+    word-spacing: -4px;/* comment trong css*/
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.nav ul:nth-child(1) {
+    float: left;
+}
+.nav ul:nth-child(2){
+    float: right;
+}
+.active,
+ul li:hover {
+    background-color: #444444;
+}
