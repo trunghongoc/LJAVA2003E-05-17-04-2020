@@ -1,0 +1,18 @@
+.banner .menu .bar {
+    display: block;
+}
+.banner .menu .right-menu ul:first-child {
+    display: none;
+}
+/* .new .col {
+    display: flex;
+    flex: 0 0 100%;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 2.5em;
+    margin-bottom: 3em;
+} */
+/* .new .col>div {
+    padding: 0;
+} */
+
+/* Em vướng khi reponsive toàn bị tràn  */

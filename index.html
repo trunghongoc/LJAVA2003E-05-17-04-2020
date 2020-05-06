@@ -3,25 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Theory</title>
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="768.css" media="screen and (max-width: 768px)">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="main.js"></script>
 </head>
 <body>
-    <div class="nav">
-        <ul>
-            <li class="active">Home</li>
-            <li>Order</li>
-            <li>Service</li>
-        </ul>
-        <ul>
-            <li>Go to page</li>
-        </ul>
-        <ul class="clear-fix"></ul>
+    <!-- Banner -->
+    <div class="background"></div>
+    <!-- hide menu -->
+    <div id="mobile-menu">
+        <div class="close">
+            <a href="#" id="icon" onclick="openMenu(false)"><i class="fas fa-times"></i></a>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Generic</li></a>
+                <a href="#"><li>Elements</li></a>
+            </ul>
+        </div>
     </div>
+    <div class="banner">
+        <div class="menu container">
+            <div class="menu-bar left-menu">
+                <ul>
+                    <a href="#"><li>Theory</li></a>
+                </ul>
+            </div>
+            <div class="menu-bar right-menu">
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Generic</li></a>
+                    <a href="#"><li>Elements</li></a>
+                </ul>
+                <ul class="bar">
+                    <a href="#" onclick="openMenu(true)"><li><i class="fas fa-bars"></i></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <h1>Welcome to Theory</h1>
+            <p>A free responsive HTML5 website template by TEMPLATED.</p>
+        </div>
+    </div>
+    <!-- New -->
+    <div class="new">
+        <div class="container flex">
+            <div class="col">
+                <div class="more">
+                    <h3>Magna tempus sed amet
+                        <br>aliquam veroeros
+                    </h3>
+                    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+                    <a href="#" id="more">More</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="more">
+                    <h3>Magna tempus sed amet
+                        <br>aliquam veroeros
+                    </h3>
+                    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+                    <a href="#" id="more">More</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="more">
+                    <h3>Magna tempus sed amet
+                        <br>aliquam veroeros
+                    </h3>
+                    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+                    <a href="#" id="more">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Users -->
+    <div class="users">
+        <header>
+            <h2>Ipsum Feugiat</h2>
+            <p>Semper suscipit posuere apede</p>
+        </header>
+        <div class="photo container">
+            <div class="box">
+                <div class="person"><img src="img/person_1.jpg" alt="person_1"></div>
+                <h3>Magna</h3>
+                <p>Cipdum dolor</p>
+            </div>
+            <div class="box">
+                <div class="person"><img src="img/person_2.jpg" alt="person_2"></div>
+                <h3>Ipsum</h3>
+                <p>Vestibulum comm</p>
+            </div>
+            <div class="box">
+                <div class="person"><img src="img/person_3.jpg" alt="person_3"></div>
+                <h3>Tempus</h3>
+                <p>Fusce pellentes</p>
+            </div>
+            <div class="box">
+                <div class="person"><img src="img/person_4.jpg" alt="person_4"></div>
+                <h3>Dolore</h3>
+                <p>Praesent placer</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Post -->
+    <div class="post">
+        <header>
+            <h2>Nunc Dignissim</h2>
+            <p>Aliquam erat volutpat nam dui </p>
+        </header>
+        <div class="flex container">
+            <div class="content">
+                <img src="img/pic01.jpg" alt="pic_1">
+                <h3>Praesent placerat magna</h3>
+                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
+                <a href="#" id="more">More</a>
+            </div>
+            <div class="content">
+                <img src="img/pic02.jpg" alt="pic_2">
+                <h3>Fusce pellentesque tempus</h3>
+                <p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
+                <a href="#" id="more">More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="border container">
+            <div class="flex">
+                <div class="copyright"> © Untitled. Design:<a href="https://templated.co">TEMPLATED</a>
+                    . Images:<a href="https://unsplash.com">Unsplash</a>
+                </div>
+                <ul>
+                    <a href="#">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fab fa-twitter"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fab fa-pinterest-p"></i></li>
+                    </a>
+                    <a href="#" class="icon">
+                        <li><i class="fab fa-vimeo-v"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
-<!--them commment
--->
-<!--
-    comment trong html
--->
