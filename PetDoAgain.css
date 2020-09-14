@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #d8aa96;
+}
+.container {
+    width: 65%;
+    margin: 200px auto;
+    display: flex;
+}
+.container .left-content {
+    width: 35%;
+    background-color: #807182;
+    position: relative;
+}
+.container .left-content .left-header {
+    margin: 50px 40px;
+    display: flex;
+}
+.container .right-content {
+    width: 65%;
+    background-color: #fAc7c2;
+}
+/* anh-cho */
+.left-footer img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 63px;
+}
+/* chinh left-header */
+.left-header img {
+    margin: 0 15px;
+    width: 65px;
+    height: 62px;
+}
+/* chinh text header vao giua */
+.right-content h2 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+/* can-form */
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 60px
+}
+.form .col-half {
+    width: 80%;
+    height: 50px;
+}
+/* chinh cam nho lai va cho text nam ngang hang voi cam */
+.file img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: relative;
+    top: 24px;
+    margin-right: 10px;
+}
+input[type="file"] {
+    width: 0px;
+}
+input[type="text"] {
+    height: 35px;
+    width: 180px;
+    border: 0px;
+    border-radius: 3px;
+}
+input[type="date"] {
+    height: 35px;
+    width: 180px;
+    border: 0px;
+    border-radius: 3px;
+}
+/* chỉnh phần gender và sayped-neu (layout) */
+.gender-layout, .say-or-neu-layout {
+    width: 180px;
+	height: 40px;
+	background: #FFFFFF;
+    border-radius: 3px;
+	line-height: 40px;
+}
+/* chỉnh phần layout của weight */
+.weight {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.weight .weight-layout {
+    width: 85%;
+	height: 40px;
+	background: #FFFFFF;
+    border-radius: 3px;
+	line-height: 40px;
+}
+.weight .weight-layout label {
+    margin-right: 15px;
+}
+/* chinh phan footer cua right */
+.right-footer {
+    background-color: #ffffff;
+    height: 70px;
+    display: flex;
+    line-height: 70px;
+}
+.right-footer .button-back button{
+    width: 95px;
+	height: 35px;
+	border-radius: 30px;
+	border: 1px solid #807182;
+    background: #FFFFFF;
+    margin-left: 50px;
+}
+.right-footer .button-next button{
+    width: 95px;
+	height: 35px;
+	border-radius: 30px;
+	border: 1px solid #807182;
+    background-color: #807182;
+    margin-left: 350px;
+    color: white;
+}
+/* chinh cac nut tick lua chon trong check form */
+input[type="radio"] {
+    width: 0px;
+}
+label {
+    cursor: pointer;
+}
+input:checked + label {
+    padding: 8px;
+    background-color: #F7B1AB;
+}
+
+
